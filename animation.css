@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#box{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+
+}
+/*#box:hover{
+    background-color: yellow;
+    border-radius: 50px;
+    transform: rotate(180deg);
+
+
+
+}*/
+@keyframes anime {
+
+    0%{
+        background-color: black;
+        border-radius: 0%;
+        transform: rotate(0deg);
+    }
+    20%{
+        background-color: aqua;
+        border-radius: 50%;
+        transform:  rotate(360deg);
+
+    }
+    40%{
+        background-color:red;
+        border-radius: 0%;
+        transform:  rotate(0deg);
+    }
+    60%{
+        background-color: aqua;
+        border-radius: 50%;
+        transform:  rotate(360deg);
+    }
+    80%{
+        background-color: aqua;
+        border-radius: 50%;
+        transform:  rotate(0deg);
+    }
+    100%{
+        background-color:green;
+        border-radius: 0%;
+        transform:  rotate(360deg);
+    }
+}
+
+#box2{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    border-top: solid 5px blue;
+    border-right: solid 5px blue;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  
+    animation-iteration-count: infinite;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(360deg);
+    }
+    
+}
+#box3{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    border-top: dotted 5px black;
+    border-right: dotted 5px black;
+    border-radius: 50%;
+    animation-name: loader-dotted;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  
+    animation-iteration-count: infinite;
+
+}
+@keyframes loader-dotted {
+    0%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+#box4{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    border-top: solid 20px black ;
+    border-right: solid 20px rgb(152, 147, 147);
+    border-left: solid 20px rgb(152, 147, 147);
+    border-bottom: solid 20px rgb(152, 147, 147);
+    border-radius: 50%;
+    animation-name: box4;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes box4 {
+    0%{
+        transform: rotate(360deg);
+    }
+    
+}
+#box5{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    border-top: solid 20px black ;
+    border-right: solid 20px rgb(152, 147, 147);
+    border-left: solid 20px rgb(152, 147, 147);
+    border-bottom: solid 20px black;
+    border-radius: 50%;
+    animation-name: box5;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes box5 {
+
+     0%{
+        transform: rotate(360deg);
+    }
+    
+}
+#box6{
+    width: 250px;
+    height: 250px;
+    margin: 200px auto;
+    border: solid 10px green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: box6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#box7{
+    width: 150px;
+    height: 150px;
+    border: solid 10px red;
+    border-radius: 50%;
+
+    animation-name: box6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+
+}
+@keyframes box6 {
+    0%{
+        transform: scale(1);
+        border: solid 10px green;
+    }
+    100%{
+        transform: scale(2);
+        border: solid 1px transparent;
+    }
+
+    section{
+        margin: 30px auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+#box8{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+  
+
+
+}
+#box9{
+    width: 50px;
+    height: 100px;
+    background-color:green;
+    
+
+}
+#box10{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+#box11{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
